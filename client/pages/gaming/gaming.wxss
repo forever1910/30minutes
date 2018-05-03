@@ -1,0 +1,4 @@
+/* pages/gaming/gaming.wxss */
+.gaming-section{
+  margin-top: 40rpx;
+}

@@ -1,0 +1,18 @@
+<!--pages/main/main.wxml-->
+<view class="container">
+    <view class="type-select-header">
+      <text>选择一种类型，开始挑战</text>
+    </view>
+
+    <!-- 选择一种类型 -->
+    <view class="type-select">
+        <navigator url="../gaming/gaming" open-type="navigate" class="type-select-text">
+            <text>重口味</text>
+        </navigator>
+    </view>
+    <view class="type-select">
+         <navigator url="../gaming/gaming" open-type="navigate" class="type-select-text">
+            <text>胆小鬼</text>
+        </navigator>
+    </view>
+</view>

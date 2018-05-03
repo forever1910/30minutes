@@ -1,0 +1,10 @@
+<!--pages/gaming/gaming.wxml-->
+<view class="container">
+  <p class='gaming-section'>
+    <text class='remain-time-text'>剩余时间：</text>
+    <text>{{clock}}</text>
+  </p>
+  <p class='gaming-section'>
+    <text>今天的任务是：{{mission}}</text>
+  </p>
+</view>
